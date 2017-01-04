@@ -1,0 +1,14 @@
+.flashy {
+  color: red;
+  font-style: italic;
+}
+
+.best {
+  animation: blinker 1s linear infinite;
+  border: 2px solid red;
+  display: inline;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
